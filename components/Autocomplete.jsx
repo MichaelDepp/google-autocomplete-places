@@ -2,7 +2,7 @@ import React from "react";
 import { View, StyleSheet } from "react-native";
 import { GooglePlacesAutocomplete } from "react-native-google-places-autocomplete";
 
-const GOOGLE_PLACES_API_KEY = "AIzaSyCd8xOrhNvkxauR0TSSOJG5VxaO2p5b2Bg";
+const GOOGLE_PLACES_API_KEY = "YOUR_API_KEY";
 
 const Autocomplete = ({onUpdateLocation}) => {
 
