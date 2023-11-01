@@ -4,7 +4,7 @@ import { GooglePlacesAutocomplete } from "react-native-google-places-autocomplet
 
 const GOOGLE_PLACES_API_KEY = "YOUR_API_KEY";
 
-const Autocomplete = ({onUpdateLocation}) => {
+const Autocomplete = ({onUpdateLocation, searchedPlaces}) => {
 
   return (
     <View style={styles.googlePlaceContainer}>
@@ -20,6 +20,7 @@ const Autocomplete = ({onUpdateLocation}) => {
         fetchDetails
         onPress={onUpdateLocation}
         onFail={(error) => console.error(error)}
+        predefinedPlaces={searchedPlaces}
       />
     </View>
   );
