@@ -10,7 +10,7 @@ const Autocomplete = ({onUpdateLocation}) => {
     <View style={styles.googlePlaceContainer}>
       <GooglePlacesAutocomplete
         styles={{
-          textInputContainer: textInputContainer,
+          textInputContainer: styles.textInputContainer,
         }}
         placeholder="Search"
         query={{
