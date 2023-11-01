@@ -1,5 +1,4 @@
-# Google Autocomplete Places - React Native ⚡
-
+# Google Autocomplete Places - React Native 🗺️📌
 ## 🔋🙆‍♂️ Development Check
 
 - ✔️ Used React Native
