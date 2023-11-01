@@ -5,7 +5,7 @@
 - ✔️ Used React Native
 - ✔️ Used functional components only
 - ✔️ Utilise React hooks
-- ✔️ Used Redux for the state management
+- ✔️ Integreated Google Places API from GCP
 - ✔️ Used Prettier for strict code formatting
 - ✔️ Used ESLint for strict coding and committing
 - ✔️ Fully Responsive to all media screen
@@ -35,22 +35,23 @@ Open the app using Expo Go in Ios / Android Device
 
 ## 🔎 Features
 
-- WIP
+- Crossplatform (Can be installed in IOS/Adroid)
+- Map component uses the native mapview based on the platform
+- Autocomplete google text container where user can search any location
+- By default it will point Menara Maybank Location
+- Marker to point the updated location geocodes
+- Map will animate to the new searched location everytime a new location clicked
 
 ## 📸 Screenshots
 
 <p align="center">
-  <img width="200" alt="Screenshot 2021-09-08 at 4 00 38 PM" src="https://user-images.githubusercontent.com/11750694/132470839-744c7491-c834-4cd5-9b3c-4cf69d887c57.png">
-  <img width="200" alt="Screenshot 2021-09-08 at 4 00 31 PM" src="https://user-images.githubusercontent.com/11750694/132470990-9a2bac71-80c1-420c-b3c5-f753d54c63ac.png">
-<img width="200" alt="Screenshot 2021-09-08 at 4 01 58 PM" src="https://user-images.githubusercontent.com/11750694/132471029-3ca76104-02c6-4e88-bbe6-35b6530ca2b5.png">
-<img width="200" alt="Screenshot 2021-09-08 at 4 07 53 PM" src="https://user-images.githubusercontent.com/11750694/132471236-793d3776-0859-4a8b-b001-9e5697efec97.png">
-  <img width="200" alt="Screenshot 2021-09-08 at 4 09 59 PM" src="https://user-images.githubusercontent.com/11750694/132471529-1461c745-3331-4faa-836d-82fdba8c09e9.png">
-<img width="200" alt="Screenshot 2021-09-08 at 4 08 51 PM" src="https://user-images.githubusercontent.com/11750694/132471420-2fdb5d84-0306-4431-a831-4a495619aa75.png">
-  <img width="200" alt="Screenshot 2021-09-08 at 4 10 45 PM" src="https://user-images.githubusercontent.com/11750694/132471682-1e29b354-10fb-441c-8e48-9bf6b4e1fbce.png">
-
+  <img width="200" alt="Screenshot 2021-09-08 at 4 00 38 PM" src="https://github.com/MichaelDepp/google-autocomplete-places/assets/11750694/9b530f72-84c0-436d-8d2e-9622fff15817">
+  <img width="200" alt="Screenshot 2021-09-08 at 4 00 31 PM" src="https://github.com/MichaelDepp/google-autocomplete-places/assets/11750694/2134b0cd-2a89-444b-9aed-9904fc680fb7">
+<img width="200" alt="Screenshot 2021-09-08 at 4 01 58 PM" src="https://github.com/MichaelDepp/google-autocomplete-places/assets/11750694/47db59ff-b7fc-4e67-9673-ce595a9cfad9">
+<img width="200" alt="Screenshot 2021-09-08 at 4 07 53 PM" src="https://github.com/MichaelDepp/google-autocomplete-places/assets/11750694/b4c9ba4d-d9db-4f9e-919d-65d17d191255">
+  <img width="200" alt="Screenshot 2021-09-08 at 4 09 59 PM" src="https://github.com/MichaelDepp/google-autocomplete-places/assets/11750694/70e20ea6-46d4-409b-aee5-91507d2b8cc2">
 </p>
 
 ## 🎥 Screen Recording Of The Application
 
-- [Video Preview - 1](https://drive.google.com/file/d/1y0IaYgAY7o7rI0hV0rdiSzW_0zjIG-4l/view?usp=sharing)
-- [Video Preview - 2](https://drive.google.com/file/d/1ylUK3vHyai9SHH0KV_ueGNGFhKRePZO_/view?usp=sharing)
+- [Video Preview](https://drive.google.com/file/d/1aGAkaApm7CEEjmPrJTz3GDz-wp4rmFkK/view?usp=sharing)
